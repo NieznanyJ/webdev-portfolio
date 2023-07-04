@@ -273,7 +273,6 @@ $gray: #d9d9d9;
 
 @media screen and (min-width: 1900px) {
     .hero{
-        max-height: 60vh;
         display: grid;
         grid-template-columns: repeat(5,260px);
         
@@ -289,7 +288,7 @@ $gray: #d9d9d9;
     }
 
     .hero-para{
-        max-width: 60ch;
+        max-width: 50ch;
     }
 
     .circle{
