@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/webdev-portfolio/static/css/main.740d27e4.css",
+    "main.js": "/webdev-portfolio/static/js/main.d7bb511e.js",
+    "static/js/787.e8a52378.chunk.js": "/webdev-portfolio/static/js/787.e8a52378.chunk.js",
+    "static/media/SpaceGrotesk-Medium.ttf": "/webdev-portfolio/static/media/SpaceGrotesk-Medium.dff8d806ce24db6ac483.ttf",
+    "static/media/SpaceGrotesk-Bold.ttf": "/webdev-portfolio/static/media/SpaceGrotesk-Bold.96e001703fcc4898de0e.ttf",
+    "static/media/thumbnail-project-4-large.webp": "/webdev-portfolio/static/media/thumbnail-project-4-large.751a4aca20e0604e0904.webp",
+    "static/media/thumbnail-project-6-large.webp": "/webdev-portfolio/static/media/thumbnail-project-6-large.1bb664dcc9883bc285db.webp",
+    "static/media/image-profile-desktop.webp": "/webdev-portfolio/static/media/image-profile-desktop.40dab61f7ce1c269d011.webp",
+    "static/media/thumbnail-project-4-small.webp": "/webdev-portfolio/static/media/thumbnail-project-4-small.9b78cb7a8fc016ac6f3e.webp",
+    "static/media/thumbnail-project-1-large.webp": "/webdev-portfolio/static/media/thumbnail-project-1-large.a3cdd4320a0ecdd0855f.webp",
+    "static/media/thumbnail-project-2-large.webp": "/webdev-portfolio/static/media/thumbnail-project-2-large.e06e1b03f76ad1010133.webp",
+    "static/media/thumbnail-project-6-small.webp": "/webdev-portfolio/static/media/thumbnail-project-6-small.6c5f5966e1c2eba5e0af.webp",
+    "static/media/image-profile-tablet.webp": "/webdev-portfolio/static/media/image-profile-tablet.314e256446dd62c124eb.webp",
+    "static/media/thumbnail-project-1-small.webp": "/webdev-portfolio/static/media/thumbnail-project-1-small.49e25903f70dda5c2a93.webp",
+    "static/media/image-profile-mobile.webp": "/webdev-portfolio/static/media/image-profile-mobile.a8f8432077fd643bed7b.webp",
+    "static/media/thumbnail-project-2-small.webp": "/webdev-portfolio/static/media/thumbnail-project-2-small.f36a7e52b84a6d8c7461.webp",
+    "static/media/thumbnail-project-3-large.webp": "/webdev-portfolio/static/media/thumbnail-project-3-large.204666234bbd998df57f.webp",
+    "static/media/thumbnail-project-5-large.webp": "/webdev-portfolio/static/media/thumbnail-project-5-large.bc869bfce11bf4174bdd.webp",
+    "static/media/thumbnail-project-3-small.webp": "/webdev-portfolio/static/media/thumbnail-project-3-small.951fb216eb344873b374.webp",
+    "static/media/thumbnail-project-5-small.webp": "/webdev-portfolio/static/media/thumbnail-project-5-small.e186a34a955415f41ecd.webp",
+    "index.html": "/webdev-portfolio/index.html",
+    "main.740d27e4.css.map": "/webdev-portfolio/static/css/main.740d27e4.css.map",
+    "main.d7bb511e.js.map": "/webdev-portfolio/static/js/main.d7bb511e.js.map",
+    "787.e8a52378.chunk.js.map": "/webdev-portfolio/static/js/787.e8a52378.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.740d27e4.css",
+    "static/js/main.d7bb511e.js"
+  ]
+}
