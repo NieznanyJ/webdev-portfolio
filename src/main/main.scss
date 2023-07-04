@@ -212,7 +212,7 @@ $gray: #d9d9d9;
     }
 
     .projects-header{
-        width: clamp(500px, 1300px, 100%);
+        width: clamp(500px, 1270px, 100%);
         justify-content: space-between;
         padding: 0 1.2em;
     }
@@ -224,12 +224,12 @@ $gray: #d9d9d9;
     }
 
     .exp-container{
-        max-width: 1300px;
+        max-width: 1270px;
         
         display: grid;
         grid-template-columns: repeat(2,1fr);
         text-align: start;
-        margin: 1em;
+        margin: auto;
         border-bottom: none;
     }
 

@@ -175,7 +175,7 @@
     background-image: url(thumbnail-project-6-large.webp);
   }
   .projects-header {
-    width: clamp(500px, 1300px, 100%);
+    width: clamp(500px, 1270px, 100%);
     justify-content: space-between;
     padding: 0 1.2em;
   }
@@ -185,11 +185,11 @@
     letter-spacing: -2.05px;
   }
   .exp-container {
-    max-width: 1300px;
+    max-width: 1270px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     text-align: start;
-    margin: 1em;
+    margin: auto;
     border-bottom: none;
   }
   .exp {

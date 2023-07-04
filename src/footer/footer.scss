@@ -175,7 +175,7 @@ input::placeholder, textarea::placeholder{
     .footer::after{
         content: '';
         height: 1px;
-        width: 90%;
+        max-width: 1270px;
         background-color: #fff;
         position: absolute;
         bottom: 15%;
