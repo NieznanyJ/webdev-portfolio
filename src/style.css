@@ -1,0 +1,41 @@
+@font-face {
+  font-family: SpaceGrotesk;
+  src: url(SpaceGrotesk-Bold.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: SpaceGrotesk;
+  src: url(SpaceGrotesk-Medium.ttf) format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  position: relative;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #151515;
+  font-family: SpaceGrotesk, sans-serif;
+  overflow-x: hidden;
+}
+
+svg path:hover {
+  transition: fill 0.2s ease;
+  fill: #4EE1A0 !important;
+}
+
+.hero-contact:hover {
+  transition: color 0.3s ease;
+  color: #4EE1A0;
+}/*# sourceMappingURL=style.css.map */

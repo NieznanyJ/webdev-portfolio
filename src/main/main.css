@@ -1,0 +1,352 @@
+.main-content {
+  z-index: 3;
+}
+
+.exp-container {
+  position: relative;
+  padding: 3em 0.5em;
+  margin: 2em 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2em;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
+  z-index: 3;
+}
+
+.exp {
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -1px;
+  font-weight: 400;
+}
+
+.exp-time {
+  color: #d9d9d9;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 200;
+}
+
+.circle-exp {
+  display: none;
+}
+
+.oval-ring-exp {
+  position: absolute;
+  width: 530px;
+  height: 80px;
+  right: -400px;
+  border-radius: 50%;
+  border: 1px solid #d9d9d9;
+  opacity: 0.6;
+}
+
+.oval-ring1-exp {
+  top: 86%;
+}
+
+.oval-ring2-exp {
+  top: 87.7%;
+}
+
+.oval-ring3-exp {
+  top: 89.4%;
+}
+
+.oval-ring4-exp {
+  top: 91.1%;
+}
+
+.oval-ring5-exp {
+  top: 92.8%;
+}
+
+.projects {
+  padding: 2em 0;
+  padding-bottom: 30%;
+}
+
+.projects-header {
+  width: clamp(200px, 450px, 90%);
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.subtitle {
+  color: #fff;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -1.14px;
+}
+
+.projects-gallery {
+  max-width: 500px;
+  margin: auto;
+  display: grid;
+  row-gap: 2.5em;
+  margin-top: 2.5em;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  color: #fff;
+  text-align: start;
+  gap: 0.725em;
+}
+
+.project-img {
+  height: 253px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.project-img1 {
+  background-image: url(thumbnail-project-1-small.webp);
+}
+
+.project-img2 {
+  background-image: url(thumbnail-project-2-small.webp);
+}
+
+.project-img3 {
+  background-image: url(thumbnail-project-3-small.webp);
+}
+
+.project-img4 {
+  background-image: url(thumbnail-project-4-small.webp);
+}
+
+.project-img5 {
+  background-image: url(thumbnail-project-5-small.webp);
+}
+
+.project-img6 {
+  background-image: url(thumbnail-project-6-small.webp);
+}
+
+.project-card-title, .tools {
+  text-transform: uppercase;
+}
+
+.tools {
+  display: flex;
+  gap: 1em;
+  color: #d9d9d9;
+}
+
+.view {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+}
+
+@media screen and (max-width: 290px) {
+  .projects-header {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+  }
+  .view {
+    justify-content: center;
+  }
+  .project-card {
+    text-align: center;
+  }
+  .tools {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 768px) {
+  .projects {
+    padding: 2em 0;
+    padding-bottom: 10%;
+  }
+  .projects-gallery {
+    max-width: 1300px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 400px);
+    max-height: 1300px;
+    row-gap: 2.2em;
+  }
+  .project-img {
+    height: 300px;
+  }
+  .project-img1 {
+    background-image: url(thumbnail-project-1-large.webp);
+  }
+  .project-img2 {
+    background-image: url(thumbnail-project-2-large.webp);
+  }
+  .project-img3 {
+    background-image: url(thumbnail-project-3-large.webp);
+  }
+  .project-img4 {
+    background-image: url(thumbnail-project-4-large.webp);
+  }
+  .project-img5 {
+    background-image: url(thumbnail-project-5-large.webp);
+  }
+  .project-img6 {
+    background-image: url(thumbnail-project-6-large.webp);
+  }
+  .projects-header {
+    width: clamp(500px, 1300px, 100%);
+    justify-content: space-between;
+    padding: 0 1.2em;
+  }
+  .subtitle {
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: -2.05px;
+  }
+  .exp-container {
+    max-width: 1300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: start;
+    margin: 1em;
+    border-bottom: none;
+  }
+  .exp {
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -1.5px;
+  }
+  .exp-time {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .oval-ring-exp {
+    position: absolute;
+    width: 530px;
+    height: 80px;
+    right: -400px;
+    border-radius: 50%;
+    border: 1px solid #d9d9d9;
+    opacity: 0.6;
+  }
+  .oval-ring1-exp {
+    top: 64%;
+  }
+  .oval-ring2-exp {
+    top: 66%;
+  }
+  .oval-ring3-exp {
+    top: 68%;
+  }
+  .oval-ring4-exp {
+    top: 70%;
+  }
+  .oval-ring5-exp {
+    top: 72%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .projects {
+    max-width: 1010px;
+    margin: auto;
+    justify-content: space-between;
+  }
+  .projects-gallery {
+    max-width: 1020px;
+    gap: 1em;
+    row-gap: 2.5em;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around !important;
+  }
+  .project-img {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  .project-img1 {
+    background-image: url(thumbnail-project-1-large.webp);
+  }
+  .project-img2 {
+    background-image: url(thumbnail-project-2-large.webp);
+  }
+  .project-img3 {
+    background-image: url(thumbnail-project-3-large.webp);
+  }
+  .project-img4 {
+    background-image: url(thumbnail-project-4-large.webp);
+  }
+  .project-img5 {
+    background-image: url(thumbnail-project-5-large.webp);
+  }
+  .project-img6 {
+    background-image: url(thumbnail-project-6-large.webp);
+  }
+  .project-card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .projects-header {
+    width: clamp(900px, 1010px, 100%);
+    padding: 0;
+    margin: 0;
+  }
+  .exp-container {
+    max-width: 1010px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: auto;
+  }
+  .oval-ring-exp {
+    position: absolute;
+    width: 530px;
+    height: 80px;
+    right: -500px;
+    border-radius: 50%;
+    border: 1px solid #d9d9d9;
+    opacity: 0.6;
+  }
+  .view {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    opacity: 0;
+  }
+  .view:hover {
+    -webkit-backdrop-filter: brightness(40%);
+            backdrop-filter: brightness(40%);
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 1900px) {
+  .projects-gallery {
+    min-width: 1300px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .projects-header {
+    min-width: 1300px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .exp-container {
+    min-width: 1300px;
+  }
+}/*# sourceMappingURL=main.css.map */
