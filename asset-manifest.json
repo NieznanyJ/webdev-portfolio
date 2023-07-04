@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/webdev-portfolio/static/css/main.3ad733a0.css",
+    "main.css": "/webdev-portfolio/static/css/main.22a68537.css",
     "main.js": "/webdev-portfolio/static/js/main.2bd3d121.js",
     "static/js/787.e8a52378.chunk.js": "/webdev-portfolio/static/js/787.e8a52378.chunk.js",
     "static/media/SpaceGrotesk-Medium.ttf": "/webdev-portfolio/static/media/SpaceGrotesk-Medium.dff8d806ce24db6ac483.ttf",
@@ -21,12 +21,12 @@
     "static/media/thumbnail-project-3-small.webp": "/webdev-portfolio/static/media/thumbnail-project-3-small.951fb216eb344873b374.webp",
     "static/media/thumbnail-project-5-small.webp": "/webdev-portfolio/static/media/thumbnail-project-5-small.e186a34a955415f41ecd.webp",
     "index.html": "/webdev-portfolio/index.html",
-    "main.3ad733a0.css.map": "/webdev-portfolio/static/css/main.3ad733a0.css.map",
+    "main.22a68537.css.map": "/webdev-portfolio/static/css/main.22a68537.css.map",
     "main.2bd3d121.js.map": "/webdev-portfolio/static/js/main.2bd3d121.js.map",
     "787.e8a52378.chunk.js.map": "/webdev-portfolio/static/js/787.e8a52378.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ad733a0.css",
+    "static/css/main.22a68537.css",
     "static/js/main.2bd3d121.js"
   ]
 }
