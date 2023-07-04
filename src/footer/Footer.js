@@ -38,6 +38,7 @@ const Footer = () => {
                 input.classList.add('invalid');
                 errorMsgs[index].textContent = 'Sorry, invalid format here';
             }
+            e.preventDefault();
             
           });
     }
