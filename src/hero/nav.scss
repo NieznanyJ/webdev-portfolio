@@ -63,6 +63,7 @@ $gray: #d9d9d9;
 }
 
 .hero-title{
+    max-width: 13ch;
     margin-top: .5em;
     color: #fff;
     font-size: 40px;
@@ -71,26 +72,13 @@ $gray: #d9d9d9;
 }
 
 .hero-title span{
+    
+    text-decoration:  underline 4px  #4EE0A0;
+    text-underline-offset: 10px;
     position: relative;
 }
 
-.hero-title span::after, .hero-contact::after{
-    content: '';
-    height: 4px;
-    width: 100%;
-    background-color: #4EE0A0;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
 
-.hero-contact::after{
-    height: 2px;
-}
-
-.hero-contact::after{
-    bottom: -50%;
-}
 
 .hero-para{
     
@@ -107,7 +95,8 @@ $gray: #d9d9d9;
     letter-spacing: 2.29px;
     line-height: 26px;
     font-weight: 200;
-    text-decoration: none;
+    text-decoration: 2px solid underline #4EE0A0;
+    text-underline-offset: 10px;
     text-transform: uppercase;
 }
 
@@ -124,45 +113,25 @@ $gray: #d9d9d9;
     border: 1px solid #fff;
 }
 
-
-.oval-ring{
+.rings-hero{
     position: absolute;
-    width: 530px;
-    height: 80px;
-    left: -310px;
-    border-radius: 50%;
-    border: 2px solid $gray;
-    opacity: .6;
-    z-index: 0;
+    top: 18%;
+    left: -350px;
 }
 
-.oval-ring1{
-    top: 20%;
-
+@media screen and (max-width: 290px) {
+    .hero-title{
+        font-size: 35px;
+        line-height: 50px;
+    }
 }
-.oval-ring2{
-    top: 21.7%;
-
-}
-.oval-ring3{
-    top: 23.4%;
-
-}
-.oval-ring4{
-    top: 25.1%;
-
-}
-.oval-ring5{
-    top: 26.8%;
-
-}
-
 
 @media screen and (min-width: 768px) {
     .hero{
+        max-height: 35vh;
         display: grid;
         grid-template-columns: repeat(5,1fr);
-        grid-template-rows: 1fr;
+    
     }
 
     .navigation{
@@ -196,7 +165,7 @@ $gray: #d9d9d9;
 
     .hero-text{
         height: 100%;
-        grid-column: 1/4;
+        grid-column: 1/6;
         grid-row: 2/3;
         text-align: start;
         align-items: flex-start;
@@ -204,13 +173,17 @@ $gray: #d9d9d9;
         z-index: 5;
     }
 
+
     .hero-title{
+        max-width: 60%;
         font-size: 72px;
         line-height: 72px;
         letter-spacing: -2.05px;
+        margin-bottom: .5em;
+        z-index: 4;
     }
     .hero-para{
-        
+        max-width: 70%;
         font-size: 18px;
         line-height: 28px;
     }
@@ -226,46 +199,20 @@ $gray: #d9d9d9;
         z-index: 7;
     }
 
-    .oval-ring{
-        position: absolute;
-        width: 530px;
-        height: 80px;
-        left: -310px;
-        border-radius: 50%;
-        border: 2px solid $gray;
-        opacity: .6;
-        z-index: 0;
-    }
     
-    .oval-ring1{
-        top: 14%;
-    
-    }
-    .oval-ring2{
-        top: 16%;
-    
-    }
-    .oval-ring3{
-        top: 18%;
-    
-    }
-    .oval-ring4{
-        top: 20%;
-    
-    }
-    .oval-ring5{
-        top: 22%;
-    
-    }
+
+   
 }
 
 
 @media screen and (min-width: 1440px) {
     .hero{
+        max-height: 38vh;
         grid-template-columns: repeat(6,168.3px);
         justify-content: center;
     }
     .hero-text{
+        gap: 1em;
         padding-left: 0;
     }
 
@@ -277,9 +224,15 @@ $gray: #d9d9d9;
         grid-column: 1/5;
     }
     .hero-title{
+        max-width: 100%;
+        margin-bottom: 0;
         font-size: 88px;
         line-height: 88px;
         letter-spacing: -2.5px;
+    }
+
+    .hero-title span{
+        text-underline-offset: 22px;
     }
 
     .hero-para{
@@ -302,35 +255,10 @@ $gray: #d9d9d9;
         border: 1px solid #fff;
         z-index: 7;
     }
-    .oval-ring{
-        position: absolute;
-        width: 530px;
-        height: 80px;
-        left: -80px;
-        border-radius: 50%;
-        border: 2px solid $gray;
-        opacity: .6;
-        z-index: 0;
-    }
-    .oval-ring1{
-        top: 22%;
     
-    }
-    .oval-ring2{
-        top: 24%;
-    
-    }
-    .oval-ring3{
-        top: 26%;
-    
-    }
-    .oval-ring4{
-        top: 28%;
-    
-    }
-    .oval-ring5{
-        top: 30%;
-    
+    .rings-hero{
+        top: 12%;
+        left: -15%;
     }
 
     .logo{

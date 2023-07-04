@@ -1,7 +1,7 @@
 $gray: #d9d9d9;
 
 .main-content{
-    
+    margin: auto;
     z-index: 3;
 }
 .exp-container{
@@ -37,42 +37,13 @@ $gray: #d9d9d9;
 }
 
 
-
-.circle-exp{
-    display: none;
-}
-
-
-.oval-ring-exp{
+.rings-exp{
     position: absolute;
-    width: 530px;
-    height: 80px;
-    right: -400px;
-    border-radius: 50%;
-    border: 1px solid $gray;
-    opacity: .6;
+    right: -120%;
+    bottom: -10%;
 }
 
-.oval-ring1-exp{
-    top: 86%;
 
-}
-.oval-ring2-exp{
-    top: 87.7%;
-
-}
-.oval-ring3-exp{
-    top: 89.4%;
-
-}
-.oval-ring4-exp{
-    top: 91.1%;
-
-}
-.oval-ring5-exp{
-    top: 92.8%;
-
-}
 
 .projects{
     padding: 2em 0;
@@ -272,35 +243,10 @@ $gray: #d9d9d9;
         font-size: 18px;
         line-height: 28px;
     }
-    .oval-ring-exp{
+    .rings-exp{
         position: absolute;
-        width: 530px;
-        height: 80px;
-        right: -400px;
-        border-radius: 50%;
-        border: 1px solid $gray;
-        opacity: .6;
-    }
-    
-    .oval-ring1-exp{
-        top: 64%;
-    
-    }
-    .oval-ring2-exp{
-        top: 66%;
-    
-    }
-    .oval-ring3-exp{
-        top: 68%;
-    
-    }
-    .oval-ring4-exp{
-        top: 70%;
-    
-    }
-    .oval-ring5-exp{
-        top: 72%;
-    
+        top: 65%;
+        left: 80%;
     }
 }
 
@@ -383,14 +329,8 @@ $gray: #d9d9d9;
         row-gap: 2em;
     }
 
-    .oval-ring-exp{
-        position: absolute;
-        width: 530px;
-        height: 80px;
-        right: -500px;
-        border-radius: 50%;
-        border: 1px solid $gray;
-        opacity: .6;
+    .rings-exp{
+        left: 88%;
     }
 
     .view{

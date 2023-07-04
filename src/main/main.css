@@ -1,4 +1,5 @@
 .main-content {
+  margin: auto;
   z-index: 3;
 }
 
@@ -31,38 +32,10 @@
   font-weight: 200;
 }
 
-.circle-exp {
-  display: none;
-}
-
-.oval-ring-exp {
+.rings-exp {
   position: absolute;
-  width: 530px;
-  height: 80px;
-  right: -400px;
-  border-radius: 50%;
-  border: 1px solid #d9d9d9;
-  opacity: 0.6;
-}
-
-.oval-ring1-exp {
-  top: 86%;
-}
-
-.oval-ring2-exp {
-  top: 87.7%;
-}
-
-.oval-ring3-exp {
-  top: 89.4%;
-}
-
-.oval-ring4-exp {
-  top: 91.1%;
-}
-
-.oval-ring5-exp {
-  top: 92.8%;
+  right: -120%;
+  bottom: -10%;
 }
 
 .projects {
@@ -228,29 +201,10 @@
     font-size: 18px;
     line-height: 28px;
   }
-  .oval-ring-exp {
+  .rings-exp {
     position: absolute;
-    width: 530px;
-    height: 80px;
-    right: -400px;
-    border-radius: 50%;
-    border: 1px solid #d9d9d9;
-    opacity: 0.6;
-  }
-  .oval-ring1-exp {
-    top: 64%;
-  }
-  .oval-ring2-exp {
-    top: 66%;
-  }
-  .oval-ring3-exp {
-    top: 68%;
-  }
-  .oval-ring4-exp {
-    top: 70%;
-  }
-  .oval-ring5-exp {
-    top: 72%;
+    top: 65%;
+    left: 80%;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -312,14 +266,8 @@
     grid-template-columns: repeat(3, 1fr);
     row-gap: 2em;
   }
-  .oval-ring-exp {
-    position: absolute;
-    width: 530px;
-    height: 80px;
-    right: -500px;
-    border-radius: 50%;
-    border: 1px solid #d9d9d9;
-    opacity: 0.6;
+  .rings-exp {
+    left: 88%;
   }
   .view {
     width: 100%;

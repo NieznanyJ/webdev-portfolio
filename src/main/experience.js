@@ -28,15 +28,9 @@ const Experience = () => {
                 <p className="exp-time">3 Years Experience</p>
                 </div>
 
-                <div className="shapes">
-            <div className="ovals-exp">
-                <div className="oval-ring-exp oval-ring1-exp"></div>
-                <div className="oval-ring-exp oval-ring2-exp"></div>
-                <div className="oval-ring-exp oval-ring3-exp"></div>
-                <div className="oval-ring-exp oval-ring4-exp"></div>
-                <div className="oval-ring-exp oval-ring5-exp"></div>
-            </div>
-            </div>
+                
+                <svg className="rings rings-exp" xmlns="http://www.w3.org/2000/svg" width="530" height="129"><g fill="none" fill-rule="evenodd" stroke="#FFF" opacity=".25"><ellipse cx="265" cy="40" rx="264.5" ry="39.5"/><ellipse cx="265" cy="52" rx="264.5" ry="39.5"/><ellipse cx="265" cy="65" rx="264.5" ry="39.5"/><ellipse cx="265" cy="77" rx="264.5" ry="39.5"/><ellipse cx="265" cy="89" rx="264.5" ry="39.5"/></g></svg>
+            
                
         </div>
      );
